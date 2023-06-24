@@ -1,0 +1,41 @@
+.div4{
+	padding: 90px 10px;
+}
+.form-contain-container{
+}
+.form-header{
+	font-size: 38px;
+	margin-bottom: 45px;
+	font-weight: normal;
+	letter-spacing: 4px;
+}
+.form-discription1{
+	margin-bottom: 25px;
+	line-height: 22px;
+}
+.form-discription2{
+	color: gray;
+	margin-bottom: 25px;
+	line-height: 22px;
+	font-weight: bold;
+}
+.form-discription3{
+	margin-bottom: 30px;
+	line-height: 22px;
+
+}
+#form-name{
+	width: 100%;
+	padding: 15px 10px;
+	margin-bottom: 35px;
+	border: none;
+	border-bottom: 1px solid gray;
+	font-size: 14px;
+}
+#form-submit{
+	padding: 10px 15px;
+	border:none;
+}
+#form-submit:hover{
+	background-color:rgba(0,0,0,0.2);
+}

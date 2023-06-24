@@ -1,0 +1,27 @@
+body{
+	margin: 0;
+	padding-top: 55px;
+}
+*{
+	font-family: times roman;
+	margin: 0;
+}
+.main{
+	margin-left: 102px;
+	margin-right: 102px;
+}
+@media (max-width: 1200px)
+{
+	.main{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.tablesetting-img{
+		align-self: center;
+	}
+
+}
+hr{
+	margin:20px 0px;
+	color: silver;
+}

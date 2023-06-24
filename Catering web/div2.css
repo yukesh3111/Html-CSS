@@ -1,0 +1,47 @@
+.div2{
+	margin-top: 90px;
+
+}
+.div2content-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	
+}
+.tablesetting2-img{
+	
+	height: 625px;
+	width: 500px;
+	border-radius: 4px;
+	opacity: 0.7;
+	padding: 10px 20px 10px 25px;
+}
+.content-container{
+	width: 500px;
+	padding: 10px 20px 10px 25px;
+
+	
+}
+.content-container h3{
+	font-size: 36px;
+	font-weight: normal;
+	letter-spacing: 5px;
+	margin-bottom: 55px;
+	text-align: center;
+}
+.content-container p{
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 26px;
+	
+	
+}
+.content-container h5{
+	font-size: 19px;
+	font-weight: normal;
+	margin-bottom: 20px;
+	letter-spacing: 4px;
+	text-align: center;
+}
+

@@ -1,0 +1,17 @@
+.div1{
+	padding-bottom: 60px;
+}
+.hambuger-img{
+	position: relative;
+	height: 610px;
+	width: 100%;
+}
+.master-tittle{
+	position: absolute;
+	bottom: 40px;
+	left: 24px;
+	font-size: 36px;
+	font-family: times-roman;
+	letter-spacing: 5px;
+	color: gray;
+}
