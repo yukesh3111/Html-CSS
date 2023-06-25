@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>fixed</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	<style type="text/css">
+		*{
+			font-family:poppins; 
+		}
+		body{
+			height: 1200px;
+		}
+		.div1{
+			width: 320px;
+			height:180px;
+			background-color: rgb(120,120,120);
+			position: fixed;
+			bottom: 20px;
+			right: 20px;
+		}
+		.close-icon{
+			position: absolute;
+			height: 40px;
+			top: -20px;
+			left: -20px;
+		}
+		.timmer{
+			position: absolute;
+			bottom: 10px;
+			right: 10px;
+			border-radius: 3px;
+			padding-top: 2px;
+			padding-bottom: 2px;
+			padding-right: 6px;
+			padding-left: 5px;
+			background-color: black;
+			color: white;
+		}
+	</style>
+</head>
+<body>
+	<div class="div1">
+		<img src="icon/close.png" class="close-icon">
+		<div class="timmer">0:29</div>
+	</div>
+</body>
+</html>

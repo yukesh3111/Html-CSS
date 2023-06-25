@@ -1,0 +1,36 @@
+*{
+	font-family: Geologica;
+
+}
+.pickup{
+	padding: 8px;
+	margin-bottom: 5px;
+	width: 300px;
+	background-color: rgb(216,216,216);
+	border: none;
+}
+.destination{
+	padding: 8px;
+	margin-bottom: 5px;
+	width: 300px;
+	background-color: rgb(216,216,216);
+	border: none;
+	margin-bottom: 25px;
+
+}
+.request{
+	padding: 6px;
+	font-size: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: white;
+	background-color: black;
+}
+.schedule{
+	padding: 6px;
+	font-size: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: rgb(216,216,216);
+	border: 2px solid rgb(216,216,216);
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>grid</title>
+	<style type="text/css">
+		*{
+			margin: 0px;
+		}
+		.grid{
+			display: grid;
+			grid-template-columns: 200px 75px;
+		}
+		#grid1{
+			background-color: lightblue;
+		}
+		#grid2{
+			background-color: lightpink;
+		}
+		.grid2{
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
+		}
+
+		.grid3{
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr;
+			grid-column-gap: 20px;
+			grid-row-gap: 10px;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="grid">
+		<p id="grid1">200px</p>
+		<p id="grid2">75px</p>
+	</div>
+	<br>
+
+	<div class="grid2">
+		<p id="grid1">50px</p>
+		<p id="grid2">remainning</p>
+		<p id="grid1">75px</p>
+	</div>
+	<br>
+
+	<div class="grid3">
+		<p id="grid1">col1</p>
+		<p id="grid2">col2</p>
+		<p id="grid1">col3</p>
+		<p id="grid2">col4</p>
+		<p id="grid1">col5</p>
+		<p id="grid2">col6</p>
+		<p id="grid1">col7</p>
+		<p id="grid2">col8</p>
+	</div>
+</body>
+</html>

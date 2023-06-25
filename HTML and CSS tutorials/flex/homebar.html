@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>bar</title>
+	<style type="text/css">
+		*{
+			font-family: arial;
+		}
+		.bar{
+			display: flex;
+			flex-direction: row;
+			height: 35px;
+			padding: 10px;
+			border: 1px solid gray;
+			justify-content: space-between;
+			align-items: center;
+			background-color: #a76bcf;
+		}
+		.home-1{
+			text-decoration: none;
+			color: white;
+			font-size: 13px;
+			font-weight: bold;
+		}
+		
+		.search-1{
+			flex: 1;
+			border-radius: 20px;
+			border: 1px solid black;
+			padding: 5px;
+			padding-left: 20px;
+			margin-left: 60px;
+			margin-right: 80px;
+		}
+		.download-1{
+			padding: 5px;
+			background-color: transparent;
+			border: 1px solid white;
+			color: white;
+			padding-left: 8px;
+			padding-right: 8px;
+		}
+	</style>
+</head>
+<body>
+	<div class="bar">
+		<div class="home">
+			<a href="#" class="home-1">Home</a>
+		</div>
+		
+			<input type="text" placeholder="Search" class="search-1">
+
+		
+		<div class="download-button">
+			<button class="download-1">Downlode</button>
+		</div>
+	</div>
+</body>
+</html>

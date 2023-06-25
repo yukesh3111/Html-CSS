@@ -1,0 +1,65 @@
+*{
+	text-align: center;
+	font-family: arial;
+}
+.new{
+	text-align: center;
+	color: orange;
+	font-size: 14px;
+}
+.mac{
+	text-align: center;
+	font-size: 20px;
+	line-height: 2px;
+	font-weight: bold;
+}
+.super{
+	text-align: center;
+	font-size: 35px;
+	line-height: 2px;
+	font-weight: bold;	
+}
+.from{
+	text-align: center;
+	font-size: 16px;
+	color: grey;
+	line-height: 2px;
+}
+.buy{
+
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	border: none;
+	border-radius: 10px;
+	background-color: blue;
+	color: white;
+	font-weight: bold;
+
+}
+.num{
+	text-align: left;
+	font-size: 20px;
+	line-height: 4px;
+}
+.usd{
+	text-align: left;
+	font-size: 14px;
+	color: grey;
+	line-height: 4px;
+}
+.percentage{
+	text-align: left;
+	color: green;
+	line-height: 4px;
+}
+.after{
+	text-align: left;
+	line-height: 4px;
+	color: grey;
+
+}
+.red{
+	color: red;
+}

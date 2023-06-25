@@ -1,0 +1,91 @@
+.subscribe-button{
+	background-color: red;
+	color: white;
+	height: 36px;
+	width: 105px;
+	border-radius: 5px;
+	font-weight: bold;
+	cursor: pointer;
+	border:none;
+	transition: opacity 0.15s;
+
+}
+.subscribe-button:hover{
+	opacity: 0.8;
+}
+.subscribe-button:active{
+	opacity: 0.5;
+}
+.join-button{
+	background-color: white;
+	color: rgb(41,118,211);
+	height: 36px;
+	width: 60px;
+	border-radius: 5px;
+	border: 1px solid rgb(41,118,211);
+	font-weight: bold;
+	cursor: pointer;
+	transition:background-color 0.15s,color 0.15s; 
+}
+.join-button:hover{
+	background-color: rgb(41,118,211);
+	color: white;
+}
+.join-button:active{
+	opacity: 0.8;
+}
+
+.tweeter-button{
+	background-color: rgb(2,158,255);
+	color: white;
+	height: 36px;
+	width: 70px;
+	border-radius: 20px;
+	font-weight: bold;
+	cursor: pointer;
+	border: none;
+	transition: box-shadow 0.15s;
+
+
+}
+.tweeter-button:hover{
+	box-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+}
+.Request-now-button{
+	background-color: black;
+	color: white;
+	height: 36px;
+	width: 105px;
+	cursor: pointer;
+}
+.Add-to-cart-button{
+	background-color: rgb(255,216,20);
+	border: none;
+	height: 30px;
+	width: 140px;
+	cursor: pointer;
+	font-weight: bold;
+	border-radius: 20px;
+
+}
+.Apply-on-company-website-button{
+	background-color: rgb(10,102,194);
+	color: white;
+	border: none;
+	height: 30px;
+	width: 220px;
+	cursor: pointer;
+	font-weight: bold;
+	border-radius: 20px;
+
+}
+.Save-button{
+	background-color: white;
+	color: rgb(10,102,194);
+	border: 1px solid rgb(10,102,194);
+	height: 30px;
+	width: 70px;
+	cursor: pointer;
+	font-weight: bold;
+	border-radius: 20px;
+}

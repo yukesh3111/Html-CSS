@@ -1,0 +1,42 @@
+.sevene{
+
+	font-size: 18px;
+	border-radius: 50px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 10px;
+	color: grey;
+	border: none; 
+	width: 500px;
+	box-shadow: 0px 5px 15px rgb(0,0,0,0.35);
+}
+.google{
+	height: 100px;
+	margin-bottom: 20px;
+}
+.googlesearch{
+	font-family: Geologica;
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	margin: 20px;
+}
+.disc{
+	display: inline-block;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: silver;
+	margin-top: 30px;
+	margin-right: 20px;
+}
+.feel{
+	display: inline-block;
+	margin-top: 30px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: silver;
+}

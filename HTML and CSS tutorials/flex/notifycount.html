@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>center</title>
+	<style type="text/css">
+		body{
+			margin: 10px;
+		}
+		*{
+			margin: 0px;
+		}
+		.flex-container{
+			border-radius: 5px;
+			border: 1px solid grey;
+			padding-top:10px;
+			padding-right:10px;
+			padding-left:10px;
+			width: 300px;
+			box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+			justify-content: flex-end;
+
+
+		}
+		.home, .notifications, .message{
+			display: flex;
+			flex-direction: row;
+		}
+
+		.nav{
+			flex: 1;
+			font-family: arial;
+			margin-bottom: 15px;
+			font-size: 18px;
+
+		}
+		.count{
+			background-color: rgb(0,90,255);
+			width: 30px;
+			font-family: arial;
+			margin-bottom: 15px;
+			border-radius: 10px;
+			text-align: center;
+			font-size: 18px;
+			color: white;
+			padding-left: 3px;
+			padding-right: 3px;
+			padding-top: 2px;
+
+
+
+		}
+
+
+
+	</style>
+</head>
+<body>
+	<div class="flex-container">
+		<div class="home">
+			<p class="nav">Home</p>
+			<p class="count">14</p>
+		</div>
+		<div class="notifications">
+			<p class="nav">Notifications</p>
+			<p class="count">3</p>
+		</div>
+		<div class="message">
+			<p class="nav">Message</p>
+			<p class="count">5</p>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	<style type="text/css">
+		*{
+			font-family: Poppins;
+		}
+		.flex-container{
+			display: flex;
+			flex-direction: column;
+			width: 400px;
+			border:1px solid gray;
+			padding: 10px;
+			border-radius: 17px;
+		}
+		.flex-inside1{
+			display: flex;
+			flex-direction: row;
+			width: 400px;
+			margin-bottom: 0;
+
+		}
+		.flex-inside2{
+			display: flex;
+			flex-direction: row;
+			justify-content: flex-end;
+			border-radius: 17px;
+			border:1px solid gray ; 
+			margin-left: 60px;
+		}
+		.flex-inside21{
+			margin-left: 15px;
+		}
+
+		.profile-dp{
+			height: 50px;
+			width: 50px;
+			border-radius: 25px;
+			margin-right: 10px;
+			vertical-align: middle;
+
+		}
+		.info{
+			flex:1;
+			vertical-align: middle
+						
+		}
+		.acc-name{
+			margin:0;
+			margin-top:5px;
+			font-weight: bold;
+			line-height: 1px;
+			font-size: 12px;
+			
+		}
+		.tag{
+			color: gray;
+			line-height: 1px;
+			font-size: 12px;
+			
+		}
+		.twitte{
+			line-height: 16px;
+			margin-bottom: 8px;
+			font-size: 12px;
+		}
+		.link{
+			line-height: 1px;
+			font-size: 12px;
+			color: gray;
+		}
+		.discription{
+			line-height: 16px;
+			font-size: 12px;
+		}
+		.video-image{
+			width: 150px;
+			background-color: gray;
+			margin: 0;
+			border-radius: 15px 0px 0px 15px;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="flex-container">
+		<div class="flex-inside1">
+			<img src="Image/person1.jpg" class="profile-dp">
+			<div class="info">
+				<p class="acc-name">Selena.dev <span class="tag">@Selena-frontend</span></p>
+				<p class="twitte">What is front-end web development? A complete overview. New video up!</p>
+			</div>
+		</div>
+		<div class="flex-inside2">
+			<p class="video-image"></p>
+			<div class="flex-inside21">
+				
+				<p class="link">
+					youtube.com
+				</p>
+				<p class="discription">
+					Frontend web development - a complete overview(2021)
+				</p>
+			</div>
+			
+		</div>
+	</div>
+</body>
+</html>

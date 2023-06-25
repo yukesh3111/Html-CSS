@@ -1,0 +1,54 @@
+.first{
+	font-size: 12px;
+	border: 1px solid grey;
+	color: grey;
+	border-radius: 6px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 7px;
+	height: 20px;
+	width: 100px;
+	margin-bottom: 10px;
+
+}
+.last{
+	font-size: 12px;
+	border: 1px solid grey;
+	color: grey;
+	border-radius: 6px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 7px;
+	height: 20px;
+	width: 100px;
+	margin-bottom: 10px;
+}
+.email{
+	font-size: 12px;
+	border: 1px solid grey;
+	color: grey;
+	border-radius: 6px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 7px;
+	width: 215px;
+	margin-bottom: 10px;
+	height: 20px;
+	
+}
+.but{
+	width: 225px;
+	font-size: 12px;
+	border: 1px solid grey;
+	color: grey;
+	border-radius: 6px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 7px;
+	margin-bottom: 10px;
+	height: 30px;	
+	cursor: pointer;
+	background-color: rgb(0,133,255);
+	color: white;
+	font-weight: bold;
+}

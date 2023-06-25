@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>friend-list</title>
+	<style type="text/css">
+		.flex-bar{
+			display: flex;
+			flex-direction: row;
+			width: 500px;
+			align-items: center;
+
+		}
+		.profile-pic{
+			height: 50px;
+			width: 50px;
+			border-radius: 150px;
+			margin: 10px;
+		}
+		.name,.role{
+			line-height: 3px;
+			margin-right: 100px;
+		}
+		.name{
+			font-weight: bold;
+		}
+		.role{
+			color:gray;
+		}
+		.follow{
+			padding-left: 8px;
+			padding-right: 8px;
+			padding-top: 4px;
+			padding-bottom: 4px;
+			border-radius: 3px;
+			border:none;
+			background-color: rgb(0,135,255);
+			font-weight: bold;
+			color: white;
+		}
+
+
+
+
+	</style>
+</head>
+<body>
+
+		<div class="flex-bar">
+			<img src="Image/person1.jpg" class="profile-pic">
+			<div><p class="name">Selena</p>
+			<p class="role">Front-end Dev</p></div>
+			<button class="follow">Follow</button>
+		</div>
+		<div class="flex-bar">
+			<img src="Image/person2.jpg" class="profile-pic">
+			<div><p class="name">Luna</p>
+			<p class="role">Back-end Dev</p></div>
+			<button class="follow">Follow</button>
+		</div>
+		<div class="flex-bar">
+			<img src="Image/person3.jpg" class="profile-pic">
+			<div><p class="name">Titan</p>
+			<p class="role">Full-stack Dev</p></div>
+			<button class="follow">Follow</button>
+		</div>
+</body>
+</html>

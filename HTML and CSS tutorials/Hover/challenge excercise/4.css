@@ -1,0 +1,80 @@
+button{
+
+	margin: 10px;
+}
+a{
+	margin: 10px;
+}
+.stretch{
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: green;
+	border: none;
+	color: white;
+	transition: padding-left 1.15s,
+	padding-right 1.15s,
+	padding-top 1.15s,
+	padding-bottom 1.15s;
+}
+.stretch:hover{
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.shadow{
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: green;
+	border: none;
+	color: white;
+	transition: box-shadow 0.15s; 
+}
+.shadow:hover{
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+}
+
+.One,.Two,.Three{
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: green;
+	border: none;
+	color: white;
+	transition: padding-left 1s,
+	padding-right 1s,
+	padding-top 1s,
+	padding-bottom 1s,
+	margin-right 1s,
+	margin-left 1s;
+}
+.One:hover{
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.Two:hover{
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.Three:hover{
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
