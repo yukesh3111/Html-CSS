@@ -1,0 +1,15 @@
+/*395 lines untill div5 css*/
+*{
+	font-family: Geologica;
+	margin: 0;
+	padding: 0;
+	cursor: default;
+}
+body{
+	margin: 0;
+	height: 1200px;
+}
+
+html{
+	scroll-behavior: smooth;	
+}

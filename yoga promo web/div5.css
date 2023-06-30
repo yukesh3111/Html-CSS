@@ -1,0 +1,100 @@
+.div5{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-bottom: 150px; 
+}
+.div51{
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 90px;
+}
+.div51-round{
+	width: 228px;
+	height: 228px;
+	border-radius: 114px;
+	background-color: rgb(223,203,159);
+}
+.div51-content{
+	width: 600px;
+	font-size: 42px;
+	text-align: right;
+
+}
+.div52{
+	padding-left: 150px;
+}
+.div52-bigimage{
+	width: 557px;
+	height: 557px;
+	border-radius: 279px;
+	background-image: url(image/div5image1.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	
+}
+.div52-smallimage{
+	background-image: url(image/div5image2.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 310px;
+	height: 310px;
+	border-radius: 155px;
+	position: absolute;
+	bottom: -150px;
+	left: -100px;
+	z-index: 1;
+	border: 10px solid rgb(204, 211, 219);
+}
+.div52-content{
+	width: 400px;
+	position:relative;
+	right: -500px;
+	top:70px; 
+	padding: 40px 40px 40px 100px;
+
+	
+}
+.div52-content h3{
+	font-size: 42px;
+	margin-bottom:25px; 
+}
+.div52-content p{
+	font-size: 22px;
+	margin-bottom:25px;
+}
+.div52-content p a{
+	color: black;
+	text-underline-offset: 8px;
+	cursor: pointer;
+}
+.div52-content p a:hover{
+	text-decoration: none;		
+}
+.div52-learn-more{
+	padding: 10px 22px;
+	font-size: 18px;
+	background-color: black;
+	color: white;
+	cursor: pointer;
+
+}
+.div52-learn-more:hover{
+	background-color: rgba(255, 166, 74, 0.8);
+	border: 1px solid rgba(255, 166, 74, 0.9);
+	color: black;
+	font-weight: bold;
+}
+.div51-dashround{
+	position: absolute;
+	bottom: -100px;
+	right: -100px;
+	border-radius: 100px;
+	height: 200px;
+	width: 200px;
+	background-image: url(image/dashround.png);
+	background-size: cover;
+	background-position: center;
+	z-index: -1;
+
+}

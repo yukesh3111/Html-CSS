@@ -1,0 +1,21 @@
+.header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 20px 40px 20px 40px;
+	align-items: center;
+}
+.header p{
+	font-size: 22px;
+}
+.header button{
+	background-color: transparent;
+	border: none;
+	padding: 3px 8px 0px 8px;
+}
+.header button:hover{
+	background-color: rgba(0,0,0,0.2);
+}
+.menu img{
+	height: 25px;
+}
