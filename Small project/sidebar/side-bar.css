@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(242, 207, 245);
+  position: relative;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito";
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 200px;
+  height: 500px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: white;
+  position: absolute;
+  left: 10px;
+  top: 55px;
+}
+
+.inside-container2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 10px 0px;
+  border-radius: 5px;
+}
+.inside-container1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 10px 0px;
+
+  padding: 5px 8px;
+  border-radius: 5px;
+  background-color: rgb(242, 207, 245);
+}
+.inside-container1 button {
+  padding: 5px 8px;
+  border-radius: 5px;
+  margin: 0px 5px;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  background-color: transparent;
+}
+.inside-container2 button {
+  padding: 10px 12px;
+  margin: 10px 10px;
+  border-radius: 5px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+}
+img {
+  height: 20px;
+  width: 20px;
+  vertical-align: middle;
+}
+.inside-container2 button:active {
+  background-color: rgb(242, 207, 245);
+}
+.inside-container1 button:active {
+  background-color: white;
+}
+.dashboard:hover {
+  background-color: rgb(242, 207, 245);
+}
+.activity:hover {
+  background-color: rgb(242, 207, 245);
+}
+.settings:hover {
+  background-color: rgb(242, 207, 245);
+}
+.calendar:hover {
+  background-color: rgb(242, 207, 245);
+}
+.inbox:hover {
+  background-color: rgb(242, 207, 245);
+}
+.light:hover {
+  background-color: white;
+}
+.dark:hover {
+  background-color: white;
+}

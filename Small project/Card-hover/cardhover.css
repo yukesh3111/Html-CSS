@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 900px;
+}
+
+.inside-container1,
+.inside-container2,
+.inside-container {
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 200px;
+  position: relative;
+
+  border-radius: 5px;
+}
+.inside-container1 {
+  background-image: url(image/moutain.jpg);
+}
+.inside-container2 {
+  background-image: url(image/forest.jpg);
+}
+.inside-container {
+  background-image: url(image/sea.jpg);
+}
+.content {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  opacity: 0;
+  transition: all 1s;
+}
+h3 {
+  color: white;
+  margin-bottom: 8px;
+}
+p {
+  font-size: 14px;
+  color: white;
+  margin-bottom: 8px;
+}
+button {
+  padding: 8px 10px;
+  font-size: 14px;
+  background-color: white;
+  border: none;
+  border-radius: 2px;
+  transition: all 0.15s;
+}
+
+.inside-container2:hover {
+  box-shadow: inset 0px 0px 57px 80px rgba(0, 0, 0, 0.75);
+}
+.inside-container:hover {
+  box-shadow: inset 0px 0px 57px 80px rgba(0, 0, 0, 0.75);
+}
+.inside-container1:hover {
+  box-shadow: inset 0px 0px 57px 80px rgba(0, 0, 0, 0.75);
+}
+.inside-container1:hover .content {
+  opacity: 1;
+}
+.inside-container:hover .content {
+  opacity: 1;
+}
+.inside-container2:hover .content {
+  opacity: 1;
+}
+button:hover {
+  opacity: 0.7;
+}
