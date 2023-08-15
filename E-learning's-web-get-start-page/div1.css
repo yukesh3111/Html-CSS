@@ -1,0 +1,97 @@
+.div1-details {
+  background-image: url(image/h1_hero.png);
+  margin-bottom: 50px;
+}
+.header {
+  position: fixed;
+  width: 100%;
+  box-shadow: 10px 0px 6px rgba(0, 0, 0, 0.5);
+  z-index: 3;
+}
+.header-container {
+  padding: 20px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+}
+.search input {
+  padding: 7px 12px;
+  border-radius: 15px;
+  border: 1px solid gray;
+  margin-right: 10px;
+}
+.search input::placeholder {
+  color: gray;
+}
+.search {
+  display: grid;
+  grid-template-columns: 1fr 40px;
+}
+.search button {
+  background-color: rgb(45, 48, 141);
+  padding: 7px 5px 5px 5px;
+  border: none;
+  border-radius: 17px;
+}
+.div1-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 80px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.div1-details-content div h2 {
+  font-size: 58px;
+  font-weight: 700;
+  margin-bottom: 14px;
+  line-height: 1.2;
+  margin-bottom: 51px;
+}
+.div1-details-content p {
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 500;
+  margin-bottom: 39px px;
+  color: #2d3092;
+  margin-bottom: 44px;
+  display: inline-block;
+}
+.div1-details-content {
+  z-index: 2;
+  padding-left: 30px;
+  width: 513px;
+}
+.div1-details-content div button {
+  padding: 12px 25px;
+  font-size: 18px;
+  background-color: rgb(45, 48, 141);
+  color: white;
+  border: none;
+  transition: all 0.15s linear;
+}
+.div1-img {
+  right: 0;
+  z-index: 0;
+}
+.links a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  transition: all 0.15s;
+}
+/*-------Hover------*/
+.links a:hover {
+  color: rgb(45, 48, 141);
+}
+.div1-details-content div button:hover {
+  background-color: rgb(62, 68, 236);
+}
